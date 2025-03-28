@@ -47,7 +47,7 @@ int main()
     printf("\nPROCESS\tBURST TIME\tWAITING TIME\tTURNAROUND TIME\n");
     for(i = 0; i < n; i++)
     {
-        printf("P%d\t\t%d\t\t%d\t\t%d\n", p[i], bt[i], wt[i], tat[i]);
+        printf("P%d\t\t%d\t\t\t%d\t\t\t%d\n", p[i], bt[i], wt[i], tat[i]);
     }
 
     printf("\nAverage Waiting Time -- %f", wtavg / n);
