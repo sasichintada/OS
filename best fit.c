@@ -48,3 +48,24 @@ printf("\n%d\t\t%d\t\t%d\t\t%d\t\t%d",i,f[i],ff[i],b[ff[i]],frag[i]);
 getch();
 }
 
+
+
+
+
+
+Enter the number of blocks: 3
+Enter the number of files: 2
+
+Enter the size of the blocks:-
+Block 1: 5
+Block 2: 2
+Block 3: 7
+
+Enter the size of the files:-
+File 1: 1
+File 2: 4
+
+OUTPUT
+File No                  File Size               Block No             Block Size           Fragment
+1                              1                             2                             2                             1
+2                              4                              1                              5                             1
