@@ -62,3 +62,19 @@ int main()
 
     return 0;
 }
+
+Enter the number of processes -- 5 
+Enter the Burst Time & Priority of Process 0 --- 10 3 
+Enter the Burst Time & Priority of Process 1 --- 1 1 
+Enter the Burst Time & Priority of Process 2 --- 2 4 
+Enter the Burst Time & Priority of Process 3 --- 1 5 
+Enter the Burst Time & Priority of Process 4 --- 5 2
+OUTPUT :
+PROCESS PRIORITY BURST TIME WAITING TIME TURNAROUND TIME
+p1 1 1 0 1 
+p4 2 5 1 6 
+p0 3 10 6 16 
+p2 4 2 16 18 
+p3 5 1 18 19 
+Average Waiting Time is --- 8.200000 
+Average Turnaround Time is --- 12.000000
