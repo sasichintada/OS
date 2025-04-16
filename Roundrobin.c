@@ -64,3 +64,16 @@ int main()
 
     return 0;
 }
+
+Enter the no of processes – 3
+Enter Burst Time for process 1 – 24
+Enter Burst Time for process 2 -- 3
+Enter Burst Time for process 3 -- 3
+Enter the size of time slice – 3
+OUTPUT:
+The Average Turnaround time is – 15.666667
+The Average Waiting time is -- 5.666667
+PROCESS BURST TIME WAITING TIME TURNAROUND TIME
+p1 24 6 30
+p2 3 4 7
+p3 3 7 10
